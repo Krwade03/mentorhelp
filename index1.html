@@ -1,0 +1,183 @@
+<!DOCTYPE html> <!-- DOCTYPE Declaration -->
+<html> <!-- Begin HTML Structure -->
+
+<head> <!-- Begin Head Elements -->
+
+<!-- Meta Tags -->
+
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Link & Script Tags -->
+
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" type="text/css" href="main1.css">
+ 
+ <!-- <link rel="stylesheet" type="text/css" href="showhide.css">   -->
+ 
+  <link rel="stylesheet" type="text/css" href="form.css">
+  
+
+ <!--  Website Title -->
+
+  <title>Kentucky (KY) Medicaid Fraud Reporting</title>
+
+</head> <!-- End Head Elements -->    
+    
+<!-- HTML Body -->  
+<body>
+    
+<!-- Header Div & Elements -->
+<header id="top" class="main-header">
+      <span class="title">Do You Suspect Medicaid provider Fraud? </span></br>
+      <span class="titleunderline">Review this site to learn how to contact various Office of Inspector General's offices so we can put a stop to Medicaid Provider Fraud</span>
+</header>
+		
+<!-- Primary-content -->
+<div class="primary-content">
+  <div>
+			<p class="intro">
+        Recipients, providers and the general public may report suspected fraud, abuse or misuse of the Kentucky Medicaid Program by contacting the KY Cabinet for Health and Family Services (CHFS) Office of the Inspector General (OIG) using the information listed below. If you need to see a list of fraud examples, click the show button below (or this list link) <a href="fraud_list.html" id="list">list</a> to see some of the ways a Medicaid provider can commit fraud. 
+        </p>
+  </div>
+ 
+
+<div ng-app="myApp">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js">
+  </script>
+
+  <script type="text/javascript" src="app.js"></script>
+
+  <div ng-controller="MyController">
+    <button ng-click="toggleshow()">Show</button>
+  <p ng-hide="show">  
+                
+                <li>Billing for medical services not actually performed<br></li>
+                <li>Billing for a more expensive service than was actually rendered<br></li>
+                <li>Billing for several services that should be combined into one billing<br></li>
+                <li>Billing twice for the same medical service<br></li>
+                <li>Dispensing generic drugs and billing for brand-name drugs<br></li>
+                <li>Kickbacks - giving or accepting something in return for medical services<br></li>
+                <li>Bribery<br></li>
+                <li>Providing unnecessary services<br></li>
+                <li>False cost reports<br></li>
+                <li>Billing for ambulance runs when no medical service is provided<br></li>
+                <li>Multiple passengers in an ambulance and separate billings for each passenger<br></li>
+
+
+              </ul></br>
+
+                The Medicaid Preliminary Investigations Branch staff conducts Medicaid preliminary investigations of Medicaid providers alleged to have questionable or inappropriate billing practices. Branch staff coordinates with and refers cases to law enforcement and the OAG Medicaid Fraud Control Unit as appropriate. Staff also works with the Medicaid Department for Program Integrity on non-criminal cases that require administrative action.
+                Another type of investigation conducted by branch staff includes the improper use of Medicaid cards by Medicaid members. Staff coordinates the necessary prosecution or administrative action for these types of cases as well.
+                Authority for this branch is found in KRS 194A.030 and KRS 205.8453.</p>
+  
+
+  </div>
+  
+</div>
+
+
+<div class="hhsoig">
+      <h3>Health and Human Services Office of Inspector General</h3>
+      <H3> At the federal level of fraud monitoring, is the the U.S. Department of Health and Human Services (HHS), Office of Inspector (OIG). Please watch the following video from HHS OIG if you would like to contact them directly.</h3>
+
+     
+      <style>
+      .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+      .embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+      </style>
+
+      <div class='embed-container'>
+        <iframe src='https://www.youtube.com/embed/Wlsnd1DYG6Y' frameborder='0' allowfullscreen></iframe>
+      </div>
+ </div>
+
+</div><!-- End .primary-content -->  
+
+<!-- secondary-content -->
+<div class="secondary-content t-border"> 
+      <h3>At the state level of fraud monitoring, is the Cabinet for Health and Family Services (CHFS), Office of Inspector.</h3>
+      <p class="intro">
+        Kentucky OIG operates a toll free fraud hotline. The number is: (800) 372-2970. Weekday hours of operation are from 8:00 a.m. to 4:30 p.m. Eastern time. If a call is made after these hours, please leave a detailed message.</p>
+      <form>
+        Contact Kentucky OIG by phone: <button type="submit">Click here now to call us</button>
+      </form>
+      
+
+<!-- <div> -->
+    <h3>Contact Us By Mail</h3>
+    <p class="intro">
+        Please mail any fraud and abuse issues to the following address: Cabinet for Health and Family Services, Office of the Inspector General, Division of Audits and Investigations, 275 East Main Street, 5 E-D Frankfort, Kentucky 40621.
+    </p>
+
+    <p class="intro"> 
+        <form>
+        Contact Kentucky OIG by email: <button type="submit">Click here now to email us</button> 
+        </form>
+    </p>  
+
+    <p class="intro">
+         If you want to fill out a form, to be reviewed by Kentucky OIG staff,  please fill out the following form.
+</p>
+    <form action="index.html" method="post">
+       
+       <fieldset> 
+        
+        <legend><span class="number">1</span> Your contact information. </legend>
+       
+       <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+     
+      <label for="email">Email:</label>
+      <input type="email" id="mail" name="user_email">
+       
+      <label for="phone">Best telephone number to reach you at:</label>
+      <input type="tel" id="phone" name="user_phone">
+       
+      <label for="address">Please provide a mailing address if you have no access to a phone or email.</label>
+      <input type="street-address" id="address" name="user_address">
+       
+      </fieldset>
+       
+      <fieldset>
+         
+      <legend><span class="number">2</span> Details of fraudulent activity</legend>
+         
+      <label for="bio">Please provide a brief description of what fraudulent activity you would like to be contacted about.          </label>
+      <textarea id="bio" name="user_bio"></textarea>
+        
+      </fieldset>
+       
+      <button type="submit">Send your contact information now</button>
+      
+      </form> 
+     
+
+<!--   </div>   -->
+</div><!-- End secondary-content -->
+
+<!-- HHS OIG Twitter Icon -->
+<div class="footer"> 
+    
+<!-- Footer Elements -->
+		<footer class="main-footer">
+      <p>Kentucky Office of Inspector General.</p><br>        
+      
+ 
+      <a href="https://twitter.com/OIGatHHS" target="_blank"><img src="twitter-wrap.png"></a>HHS OIG<br>
+
+       <div>
+      <a href="https://twitter.com/OIGatHHS" class="twitter-follow-button" data-show-count="true">Follow @twitter</a> 
+       </div>
+
+         <div>
+      <a href="#top">Back to top &raquo;</a>
+         </div>
+  
+      </footer> <!-- End Footer Elements-->
+</div>
+
+  </body> <!-- End Body -->
+</html> <!-- End HTML Structure-->

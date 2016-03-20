@@ -1,0 +1,130 @@
+/* Base Styles -------------------- */
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin-bottom: .5em}    /*26px*/
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom:  1.7em;      /*34px*/
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  
+  text-decoration: underline;
+
+}
+/*******
+a:visited {
+  color: lightblue;
+}
+**************/
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  font-size: 2.00rem; 
+}
+
+
+  .titleunderline {
+    color: white;
+    font-size: 1.00rem;
+  }
+
+
+
+
+.intro {
+  font-size: 2.25rem; 
+  line-height: 1.6;
+  color: black;  
+}
+
+
+.list {
+color: red;
+
+}
+
+
+.primary-content,
+.secondary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.main-footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border-bottom: 10px;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content, 
+.secondary-content {
+  width: 60%;
+  margin: auto;
+  font-size: 1.5rem;
+
+}
+
+.hhsoig {
+color: white;
+background-color: black;
+padding: 5% 5%;
+border-top: 10px solid white;
+ margin: 105px 0 60px;
+ }
+
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+ .footer img {
+    vertical-align: middle;
+    width: 10%;
+    height: auto;
+}
+
+ 
