@@ -47,6 +47,8 @@ a:active {
   color: lightcoral;
 }
 
+
+
 /* Main Styles --------------------- */
 
 .main-header {
@@ -73,11 +75,19 @@ a:active {
   color: black;  
 }
 
-
+/*********
 .list {
 color: red;
 
 }
+
+**************/
+
+#list {
+  color: black;
+}
+
+
 
 
 .primary-content,
@@ -121,10 +131,12 @@ border-top: 10px solid white;
     height: auto;
 }
 
+/***************
  .footer img {
     vertical-align: middle;
     width: 10%;
     height: auto;
 }
+*****************/
 
  
